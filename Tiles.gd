@@ -5,11 +5,6 @@ export(int) var tilesHeight = 1000
 export(int) var defaultTiles = 0
 
 
-# Instantiate
-var noise = OpenSimplexNoise.new()
-
-# Configure
-
 func _ready():
 	for x in tilesWidth:
 		for y in tilesHeight:

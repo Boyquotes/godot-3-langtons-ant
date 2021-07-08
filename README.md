@@ -21,8 +21,7 @@ in the game folder, a file called project.godot, and click on "Import and Edit".
 
 3. Done, you have access to the code in Godot Engine. You're free to modify it.
 
-
-##Controls
+## Controls
 
 - `Left/Right Arrows` Change Speed(Left increases while Right decreases)
 - `Up/Down Arrows` Zoom

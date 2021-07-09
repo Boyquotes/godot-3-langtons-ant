@@ -1,15 +1,13 @@
 extends TileMap
 
-export(int) var tilesWidth = 1000
-export(int) var tilesHeight = 1000
+export(Vector2) var tilesSize = Vector2()
 export(int) var defaultTiles = 0
 
-
 func _ready():
-	for x in tilesWidth:
-		for y in tilesHeight:
-			set_cell(x,y,1)
-			set_cell(-x,-y,1)
-			set_cell(x,-y,1)
-			set_cell(-x,y,1)
+	for x in tilesSize.x:
+		for y in tilesSize.y:
+			set_cell(x,y,defaultTiles)
+			set_cell(-x,-y,defaultTiles)
+			set_cell(x,-y,defaultTiles)
+			set_cell(-x,y,defaultTiles)
 
